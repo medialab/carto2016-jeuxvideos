@@ -6554,13 +6554,15 @@ html {
     font-family: proxima-nova, sans-serif;
     background: linear-gradient(to bottom, #e9eefb, #ffe6ff);
     font-size: 16px;
-    position: relative
+    position: relative;
+    height: 100%;
 }
 .header h1,
 h1 {
-    font-size: 72px;
+    font-size: 65px;
     font-weight: 700;
-    color: #751EE9
+    color: #751EE9;
+    line-height: 1;
 }
 p {
     line-height: 32px;
