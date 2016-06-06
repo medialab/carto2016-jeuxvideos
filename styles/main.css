@@ -6555,6 +6555,7 @@ html {
     background: linear-gradient(to bottom, #e9eefb, #ffe6ff);
     font-size: 16px;
     position: relative;
+    height: 100%;
 }
 .header h1,
 h1 {
@@ -6920,6 +6921,27 @@ h3 {
 	table-layout: fixed;
 	width: 100%;
 }
+
+#introduction {
+    height: 100vh;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#nouveaux-jeux {
+    width: 75%;
+    margin-left: 25%;
+}
+
+/**
+ * iPhone 5
+ 
+@media handheld {
+  #introduction {
+    height: 500px;
+  }
+
+**/
 
 /** Footer concu par Martin Angelov **/
 
