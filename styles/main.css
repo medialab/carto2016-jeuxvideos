@@ -6804,6 +6804,14 @@ h4.next {
     font-size: 30px
 }
 
+.tn .tn-subtitle {
+    position: absolute;
+    margin-left: 0;
+    margin-top: 140px;
+    font-size: 15px;
+    line-height: 15px;
+}
+
 /** Ajoute une marge inutile sous les images
 
 article img:not(.media-object),
