@@ -3697,14 +3697,14 @@ tbody.collapse.in {
     left: auto
 }
 .dropup .caret,
-.navbar-fixed-bottom .dropdown .caret {
+.navbar-fixed-bottom .caret {
     border-top: 0;
     border-bottom: 4px dashed;
     border-bottom: 4px solid\9;
     content: ""
 }
 .dropup .dropdown-menu,
-.navbar-fixed-bottom .dropdown .dropdown-menu {
+.navbar-fixed-bottom .dropdown-menu {
     top: auto;
     bottom: 100%;
     margin-bottom: 2px
@@ -4080,7 +4080,7 @@ tbody.collapse.in {
     text-align: center;
     margin-bottom: 5px
 }
-.nav-justified>.dropdown .dropdown-menu {
+.nav-justified>.dropdown-menu {
     top: auto;
     left: auto
 }
@@ -4462,7 +4462,6 @@ tbody.collapse.in {
     .navbar-right {
         float: right!important;
         margin-right: -15px;
-        margin-bottom: 20px;
     }
     .navbar-right~.navbar-right {
         margin-right: 0
@@ -5363,7 +5362,7 @@ button.list-group-item-danger.active:hover {
     background-color: #a94442;
     border-color: #a94442
 }
-.panel-heading>.dropdown .dropdown-toggle,
+.panel-heading>.dropdown-toggle,
 .panel-title,
 .panel-title>.small,
 .panel-title>.small>a,
@@ -6953,7 +6952,7 @@ h5 {
 	font: bold 16px sans-serif;
 	text-align: left;
 	padding: 20px 60px;
-	margin-top: 80px;
+
 	overflow: hidden;
 }
 
@@ -7058,3 +7057,32 @@ h5 {
 	}
 
 }
+
+/** Dropdown **/
+
+.dropdown {
+
+}
+
+.dropdown a {
+    font-size: inherit;
+
+}
+
+.dropdown-content {
+    display: none;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
