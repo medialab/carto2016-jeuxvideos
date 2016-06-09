@@ -6599,7 +6599,7 @@ blockquote {
     border: none;
     height: 100%;
     margin-top: 0;
-    background-color: #292c2f;
+    background-color: #050606;
     font-size: 12.5px
 }
 .navbar {
@@ -6946,18 +6946,14 @@ h5 {
 **/
 
 .footer-distributed{
-	background-color: #292c2f;
+	background-color: #050606;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
 	font: bold 16px sans-serif;
 	text-align: left;
-	padding-top: 50px:
-    padding-left: 100px;
-    padding-right: 60px;
-    padding-bottom: 50px;
+	padding: 50px 60px;
 	margin-top: 80px;
-	margin-left: 10%;
 	overflow: hidden;
 }
 
@@ -6965,6 +6961,7 @@ h5 {
 
 .footer-distributed .footer-left{
 	float: left;
+    padding-left: 20%;
 }
 
 .footer-distributed .footer-links{
@@ -6982,8 +6979,9 @@ h5 {
 
 .footer-distributed .footer-company-name{
 	color: #8f9296;
-	font-size: 14px;
+	font-size: 12px;
 	font-weight: normal;
+    line-height: 18px;
 	margin: 0;
 }
 
