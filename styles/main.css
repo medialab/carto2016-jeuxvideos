@@ -6922,12 +6922,6 @@ h3 {
 	width: 100%;
 }
 
-#introduction {
-    height: 100vh;
-    min-height: 100vh;
-    margin: 0;
-}
-
 #nouveaux-jeux {
     width: 75%;
     margin-left: 25%;
