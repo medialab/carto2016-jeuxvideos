@@ -6555,6 +6555,7 @@ html {
     background: linear-gradient(to bottom, #e9eefb, #ffe6ff);
     font-size: 16px;
     position: relative;
+    height: 100%;
 }
 .header h1,
 h1 {
@@ -6603,7 +6604,7 @@ blockquote {
 .navbar {
     position: fixed;
     opacity: 0;
-    max-width: 200px;
+    width: 190px;
     margin-left: 0;
     height: 220px;
     border-radius: 0;
@@ -7060,16 +7061,16 @@ h5 {
 /** Dropdown **/
 
 .dropdown {
-
-}
-
-.dropdown a {
-    font-size: inherit;
-
+    position: relative;
+    display: inline-block;
 }
 
 .dropdown-content {
     display: none;
+}
+
+#navbar > li:hover > .dropdown-content {
+    display: block;
 }
 
 .dropdown-content a {
@@ -7079,9 +7080,6 @@ h5 {
     text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-.dropdown:hover .dropdown-content {
-    display: block;
+.dropdown-content a:hover {
+    background-color: #f1f1f1
 }
-
