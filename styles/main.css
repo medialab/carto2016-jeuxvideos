@@ -6850,6 +6850,7 @@ h4.next {
     display: inline-block;
     width: 270px;
 }
+
 /**
  Règles
  */
@@ -7080,11 +7081,36 @@ h5 {
 }
 
 .dropdown-content a:hover {
-    background-color: #f1f1f1
+    background-color: #f1f1f1;
 }
 
 /** Acteurs **/
 
 #tous {
     margin-left: 25%;
+}
+
+/** Focus **/
+
+.focus {
+    background: #FFF;
+    border: 1px solid #CCC;
+    margin-bottom: 30px;
+    padding: 15px;
+    height: 800px;
+}
+
+.focus h2 {
+    background-color: #751ee9;
+    background-clip: border-box;
+    border: 15px solid #751ee9;
+    height: 125px;
+    text-align: center;
+    color: #FFF;
+}
+
+#article-focus {
+    width: 90%;
+    margin-left: 10%;
+    position: relative;
 }
