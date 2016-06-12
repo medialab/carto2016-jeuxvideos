@@ -6329,7 +6329,7 @@ button.close {
 .clearfix:after,
 .clearfix:before {
     content: " ";
-    display: table
+    display: table;
 }
 .tn .tn-title:after,
 .tn:before {
@@ -6849,7 +6849,6 @@ h4.next {
 .actor {
     display: inline-block;
     width: 270px;
-    float: left
 }
 /**
  Règles
@@ -7082,4 +7081,10 @@ h5 {
 
 .dropdown-content a:hover {
     background-color: #f1f1f1
+}
+
+/** Acteurs **/
+
+#tous {
+    margin-left: 25%;
 }
