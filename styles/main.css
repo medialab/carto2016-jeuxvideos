@@ -6857,24 +6857,25 @@ h4.next {
 
 .circle-container {
     position: relative;
-    width: 24em;
-    height: 24em;
-    border-radius: 50%;
-    margin-bottom: 8em;
+    height: 300px;
+    margin: 50px 0px;
 }
+
 .circle-container a {
     display: block;
     overflow: hidden;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    padding-left: 3em;
-    margin-top: -2em;
+    top: 25%;
+    left: 33%;
+       pointer-events: none;
+   cursor: default;
 }
+
 .circle-container img {
     display: block;
     width: 100%;
 }
+
 .deg0 {
     transform: translate(20em);
 }
@@ -6896,10 +6897,50 @@ h4.next {
 .circle-container a:not(.center):before {
     position: absolute;
     color: white;
-    opacity: 1;
     background: rgba(0, 0, 0, .5);
     content: attr(name);
     padding: 0.5em;
+}
+
+@media (max-width: 1100px) {
+
+    .circle-container {
+    margin: 20px 0px;
+    font-size: 14px;
+    }
+
+    .circle-container img {
+    display: block;
+    width: 70%;
+    }
+
+    .deg0 {
+    transform: translate(12em);
+    }
+    .deg45 {
+    transform: rotate(45deg) translate(8em) rotate(-45deg);
+    }
+    .deg135 {
+    transform: rotate(135deg) translate(8em) rotate(-135deg);
+    }
+    .deg180 {
+    transform: translate(-12em);
+    }
+    .deg225 {
+    transform: rotate(225deg) translate(8em) rotate(-225deg);
+    }
+    .deg315 {
+    transform: rotate(315deg) translate(8em) rotate(-315deg);
+    }
+
+    .circle-container a:not(.center):before {
+    position: absolute;
+    color: white;
+    opacity: 1;
+    background: rgba(0, 0, 0, .5);
+    content: attr(name);
+    padding: 0.1em 0.1em 0.1em 0.2em;
+    }
 }
 
 /** Ajouts **/
@@ -6952,7 +6993,6 @@ h5 {
 	font: bold 16px sans-serif;
 	text-align: left;
 	padding: 20px 60px;
-
 	overflow: hidden;
 }
 
@@ -7097,7 +7137,8 @@ h5 {
     border: 1px solid #CCC;
     margin-bottom: 30px;
     padding: 15px;
-    height: 800px;
+    min-height: 800px;
+    max-width: 500px;
 }
 
 .focus h2 {
@@ -7108,6 +7149,7 @@ h5 {
     text-align: center;
     color: #FFF;
 }
+
 
 #article-focus {
     width: 90%;
