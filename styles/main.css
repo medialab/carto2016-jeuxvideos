@@ -6867,7 +6867,7 @@ h4.next {
     position: absolute;
     top: 25%;
     left: 33%;
-       pointer-events: none;
+    pointer-events: none;
    cursor: default;
 }
 
@@ -6902,7 +6902,7 @@ h4.next {
     padding: 0.5em;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 800px) {
 
     .circle-container {
     margin: 20px 0px;
@@ -6911,11 +6911,11 @@ h4.next {
 
     .circle-container img {
     display: block;
-    width: 70%;
+    width: 50%;
     }
 
     .deg0 {
-    transform: translate(12em);
+    transform: translate(10em);
     }
     .deg45 {
     transform: rotate(45deg) translate(8em) rotate(-45deg);
@@ -6924,7 +6924,7 @@ h4.next {
     transform: rotate(135deg) translate(8em) rotate(-135deg);
     }
     .deg180 {
-    transform: translate(-12em);
+    transform: translate(-10em);
     }
     .deg225 {
     transform: rotate(225deg) translate(8em) rotate(-225deg);
@@ -7209,7 +7209,7 @@ em h3 {
 
 @media only screen and (max-width: 800px){
     .navbar {display: none;}
-    .dropdown-menu{display: inline;}
+    .dropdown-menu {display: inline;}
 }
 
 /*Responsive */
