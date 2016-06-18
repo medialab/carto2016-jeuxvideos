@@ -6907,6 +6907,7 @@ h4.next {
     .circle-container {
     margin: 20px 0px;
     font-size: 14px;
+    width: 80%;
     }
 
     .circle-container img {
@@ -6915,7 +6916,7 @@ h4.next {
     }
 
     .deg0 {
-    transform: translate(10em);
+    transform: translate(6.5em);
     }
     .deg45 {
     transform: rotate(45deg) translate(8em) rotate(-45deg);
@@ -6924,7 +6925,7 @@ h4.next {
     transform: rotate(135deg) translate(8em) rotate(-135deg);
     }
     .deg180 {
-    transform: translate(-10em);
+    transform: translate(-6.5em);
     }
     .deg225 {
     transform: rotate(225deg) translate(8em) rotate(-225deg);
