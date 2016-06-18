@@ -6857,7 +6857,7 @@ h4.next {
 .circle-container {
     position: relative;
     height: 300px;
-    margin: 50px 0px;
+    margin: 100px 0px;
 }
 
 .circle-container a {
@@ -6959,6 +6959,18 @@ figcaption {
 	margin-bottom: -1px;
 }
 
+h2 {
+    color: #751ee9;
+    font-size: 75px;
+    border-bottom: solid 2px #751ee9;
+    margin: 150px 0px 40px 0px;
+}
+
+h4 {
+    font-size: 30px;
+    margin: 80px 0px 20px 0px;
+}
+
 h5 {
 	background: #FFF;
 	border: 1px solid #CCC;
@@ -6970,8 +6982,8 @@ h5 {
 }
 
 #nouveaux-jeux {
-    width: 75%;
-    margin-left: 25%;
+    width: 150%;
+    margin-left: -20%;
 }
 
 /**
@@ -7127,6 +7139,12 @@ h5 {
 
 #tous {
     margin-left: 10%;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+#tous h4 {
+    font-size: 18px;
 }
 
 /** Focus **/
@@ -7140,15 +7158,19 @@ h5 {
     max-width: 500px;
 }
 
-.focus h2 {
+.focus h3 {
+    font-size: 30px;
     background-color: #751ee9;
     background-clip: border-box;
     border: 15px solid #751ee9;
-    height: 125px;
+    height: 110px;
     text-align: center;
     color: #FFF;
 }
 
+#gamers h3 {
+    padding-top: 20px;
+}
 
 #article-focus {
     width: 200%;
