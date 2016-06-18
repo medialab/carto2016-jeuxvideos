@@ -1,12 +1,10 @@
-/*
-
 @charset "UTF-8";
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- *
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css *
+ */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 .label,
 sub,
@@ -210,7 +208,7 @@ td,
 th {
     padding: 0
 }
-/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css *
+/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 
 @media print {
     blockquote,
@@ -6635,7 +6633,7 @@ blockquote {
 .navbar-collapse .navbar-nav.navbar-right {
     margin-top: calc(100vh - 430px)
 
-**
+**/
 
 }
 .navbar-default .navbar-nav>li>a:focus,
@@ -6827,7 +6825,7 @@ h4.next {
     margin: 3em 0
 }
 
-**
+**/
 
 .tn .tn-title:after {
     position: relative;
@@ -6854,7 +6852,7 @@ h4.next {
 
 /**
  Règles
- *
+ */
 
 .circle-container {
     position: relative;
@@ -6944,7 +6942,7 @@ h4.next {
     }
 }
 
-/** Ajouts **
+/** Ajouts **/
 
 figure {
     margin-bottom: 3em;
@@ -7016,7 +7014,7 @@ em h3 {
     height: 500px;
   }
 
-**
+**/
 
 .footer-distributed{
 	background-color: #050606;
@@ -7029,7 +7027,7 @@ em h3 {
 	overflow: hidden;
 }
 
-/* Footer left *
+/* Footer left */
 
 .footer-distributed .footer-left{
 	float: left;
@@ -7063,7 +7061,7 @@ em h3 {
 	float: right;
 }
 
-/* Changing the placeholder color *
+/* Changing the placeholder color */
 
 .footer-distributed form input::-webkit-input-placeholder {
 	color:  #5c666b;
@@ -7078,7 +7076,7 @@ em h3 {
 	color:  #5c666b;
 }
 
-/* The magnify glass icon *
+/* The magnify glass icon */
 
 .footer-distributed form i{
 	width: 18px;
@@ -7091,7 +7089,7 @@ em h3 {
 	font-size: 18px;
 }
 
-/* If you don't want the footer to be responsive, remove these media queries *
+/* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 1000px) {
 
@@ -7131,7 +7129,7 @@ em h3 {
 
 }
 
-/** Dropdown **
+/** Dropdown **/
 
 .dropdown {
     position: relative;
@@ -7157,7 +7155,7 @@ em h3 {
     background-color: #f1f1f1;
 }
 
-/** Acteurs **
+/** Acteurs **/
 
 #tous {
     margin-left: 10%;
@@ -7169,7 +7167,7 @@ em h3 {
     font-size: 18px;
 }
 
-/** Focus **
+/** Focus **/
 
 .focus {
     background: #FFF;
@@ -7199,5 +7197,3 @@ em h3 {
     margin-left: -40%;
     position: relative;
 }
-
-**/
