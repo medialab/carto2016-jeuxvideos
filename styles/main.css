@@ -6552,7 +6552,7 @@ button.close {
 body,
 html {
     font-family: proxima-nova, sans-serif;
-    background: linear-gradient(to bottom, #e9eefb, #ffe6ff);
+    background: linear-gradient(to bottom, #f2f5fd, #fff0ff);
     font-size: 16px;
     position: relative;
 }
