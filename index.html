@@ -10,9 +10,9 @@
     <meta property="og:description" content="Quand on dit 'controverses' et 'jeux vidéo', on pense tout de suite violence, guerre totale, machisme. Bref, un vrai jeu de vilains. Mais est-ce bien le cas ?" />
     <meta property="og:image" content="https://medialab.github.io/carto2016-jeuxvideos/lavignettefacebook2.png" />
     <link href="https://medialab.github.io/carto2016-jeuxvideos/lavignettefacebook2.png" rel="image_src"  />
-    <script src=https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js></script>
+
     <link rel=stylesheet href=styles/main.css>
-    <script src=https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js></script> <script src=https://use.typekit.net/fcw8iys.js></script> <script>try{Typekit.load({ async: true });}catch(e){}</script>
+   
   </head>
   <body>
     <!--[if lt IE 10]>
@@ -423,84 +423,7 @@
           </section>
         </article>
 
-      <script src=scripts/vendor.js></script> <script src=https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js></script>
-      <script>
-        $(function () {
-          skrollr.init();
 
-          $('.mymodal').on('show.bs.modal', function (e) {
-            var $modalContent = $(e.relatedTarget).parent().find('.modal-content');
-            var $modal = $(this);
-            $modal.find('.modal-body').html($modalContent.find('.body').html());
-          });
-
-          var isStarted = false,
-              $sections = $('article.block'),
-              $window = $(window),
-              thresholds = [],
-              lastSectionId = 'regles-du-jeu',
-              $navElm = $('#navbar > li');
-
-          function start() {
-            if (isStarted) return;
-            isStarted = true;
-
-
-            $sections.each(function (i, section) {
-              var $section = $(section);
-                  max = i < $sections.length - 1 ?
-                        $($sections[i + 1]).offset().top :
-                        10000000;
-
-              thresholds.push({
-                min: $section.offset().top,
-                max: max,
-                id: $section.attr('id')
-              });
-            });
-
-            $window.on('hashchange', hashChangeHandler);
-
-            function hashChangeHandler() {
-              var sectionId = window.location.hash.substring(1);
-
-              $navElm.each(function (i, elm) {
-                var $elm = $(elm);
-                if ($elm.find('a').attr('href').substring(1) === sectionId) {
-                  $elm.addClass('active');
-                  lastSectionId = sectionId;
-                } else {
-                  $elm.removeClass('active');
-                }
-              });
-            }
-
-            $window.on('scroll', function (e) {
-              var pos = $window.scrollTop(),
-                  sectionId = '';
-
-              thresholds.some(function (t, i) {
-                if (pos >= t.min && pos <= t.max) {
-                  sectionId = t.id;
-                  return true;
-                }
-              });
-
-              $navElm.each(function (i, elm) {
-                var $elm = $(elm);
-                if ($elm.find('a').attr('href').substring(1) === sectionId) {
-                  $elm.addClass('active');
-                  lastSectionId = sectionId;
-                } else {
-                  $elm.removeClass('active');
-                }
-              });
-            });
-          }
-
-          start()
-        });
-      </script>
 
           </div>
       
