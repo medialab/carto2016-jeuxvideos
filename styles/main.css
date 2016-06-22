@@ -6902,7 +6902,7 @@ h4.next {
     padding: 0.5em;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
 
     .circle-container {
     margin: 20px 0px;
@@ -7209,8 +7209,9 @@ em h3 {
 /*Essai de menu mobile */
 
 @media only screen and (max-width: 800px){
-    .navbar {display: none;}
-    .dropdown-menu {display: inline;}
+    .navbar {
+        display: none;
+    }
 }
 
 /*Responsive */
