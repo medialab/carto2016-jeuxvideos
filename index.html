@@ -470,7 +470,7 @@
       <script src=scripts/vendor.js></script> <script src=https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js></script>
       <script>
         $(function () {
-          skrollr.init();
+          skrollr.init({forceHeight: false });
 
           $('.mymodal').on('show.bs.modal', function (e) {
             var $modalContent = $(e.relatedTarget).parent().find('.modal-content');
